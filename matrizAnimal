@@ -1,0 +1,11 @@
+let animal = {
+    gato : ['gato ', 'miau ', 'Vira-lata', 1],
+    cachorro : ['cachoro ', 'Fábio ', 'Pastor Almão', 6],
+    furao : ['furão ', 'Bob ', 'desconheço', 2]
+}
+
+let escolha = prompt('escolha um dos 3 animais:\n 1 = gato \n2 = cachorro \n3 = furão')
+console.log(animal[escolha, 0])
+let caracteristica = prompt(`O que quer saber sobre o ${animal[escolha, 0]} \n1 = nome \n2 = raça \n3 = idad`)
+alert(animal[escolha, caracteristica])
+console.log(animal[escolha, caracteristica])
